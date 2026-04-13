@@ -11,9 +11,12 @@
     ],
     "duration": 6,
     "prerequisites": [
-        "html-code-blocks-pre-code"
+        "html-code-blocks-pre-code",
+        "html-paragraph-tag"
     ],
     "related": [
-        "atomic-learning-pseudocode"
+        "atomic-learning-pseudocode",
+        "atomic-learning-creating-python-cells",
+        "atomic-learning-creating-r-cells"
     ]
 }
