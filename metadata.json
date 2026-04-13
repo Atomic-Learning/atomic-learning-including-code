@@ -1,22 +1,19 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Atomic Learning: Including Code",
+    "slug": "atomic-learning-including-code",
+    "description": "A guide to including code blocks and inline code snippets in pages in the Atomic Learning Platform.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "atomic-learning",
+        "programming"
     ],
-    "duration": 0,
+    "duration": 7,
     "prerequisites": [
-        "",
-        ""
+        "html-code-blocks-pre-code"
     ],
     "related": [
-        "",
-        ""
+        "atomic-learning-pseudocode"
     ]
 }

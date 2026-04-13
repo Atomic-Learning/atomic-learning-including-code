@@ -1,1 +1,94 @@
+<p>When creating pages in the Atomic Learning PLatform, you may wish to include either in-line snippets of code or code blocks which span several lines.</p>
 
+<h2>In-line code snippets</h2>
+
+<p>To create an inline code snippet, wrap the code in the <code>&lt;code&gt;</code> tags. For example, this code snippet <code>console.log("Hello, World!");</code> was created using the following HTML source code:</p>
+
+<pre><code class="language-html">...this code snippet <code>console.log("Hello, World!");</code> was created...:</p>
+
+<pre><code>...this code sn&lt;code&gt;console.log("Hello, World!");&lt;/code&gt;</code></pre>
+
+<h2>Code blocks</h2>
+
+<p>To insert a longer multi-line block of code, wrap the code in both <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags. For example, this code block:</p>
+
+<pre><code>function greet(name) {
+    console.log("Hello, " + name + "!");}</code></pre>
+
+<p>was created using the following HTML source code:</p>
+
+<pre><code class="language-html">...this code block:</p>
+
+<pre><code>function greet(name) {
+    console.log("Hello, " + name + "!");}</code></pre>
+
+<p>was created...</code></pre>
+
+<p>Note that the <code>&lt;pre&gt;</code> tag preserves whitespace and line breaks, which preserves indentation.</p>
+
+<h3>Minimising Blank Lines</h3>
+
+<p>To minimise blanks lines which appear within a code block, ensure that the first line of the code in the block directly follows the <code>&lt;pre&gt;&lt;code&gt;</code> tag and that the closing <code>&lt;/code&gt;&lt;/pre&gt;</code> tag is on the same line as the last line of the code.</p>
+
+<h3>Runnable Code Cells</h3>
+
+<p>For some language, such as Python and R, the Atomic Learning Platform supports the inclusion of runnable code cells, which are detailed in pages in the Related Content section.</p>
+
+<h2>Syntax Highlighting</h2>
+
+<p>For inline code snippets or code blocks, syntax highlighting can be applied by giving the <code>&lt;code&gt;</code> tag a class attribute with the word <code>language-</code> followed by the identifier associated with the language. For example:</p>
+
+<pre><code class="language-html">&lt;code class="language-python"&gt;print("Hello, World!")&lt;/code&gt;</code></pre>
+
+<p>will render as <code class="language-python">print("Hello, World!")</code>.</p>
+
+<p>Supported languages include:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Language</th>
+            <th>Identifier</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Bash</td><td>bash</td></tr>
+        <tr><td>C</td><td>c</td></tr>
+        <tr><td>C++</td><td>cpp</td></tr>
+        <tr><td>C#</td><td>csharp</td></tr>
+        <tr><td>CSS</td><td>css</td></tr>
+        <tr><td>Diff</td><td>diff</td></tr>
+        <tr><td>Go</td><td>go</td></tr>
+        <tr><td>GraphQL</td><td>graphql</td></tr>
+        <tr><td>INI (includes TOML)</td><td>ini</td></tr>
+        <tr><td>Java</td><td>java</td></tr>
+        <tr><td>JavaScript</td><td>javascript</td></tr>
+        <tr><td>JSON</td><td>json</td></tr>
+        <tr><td>Kotlin</td><td>kotlin</td></tr>
+        <tr><td>Less</td><td>less</td></tr>
+        <tr><td>Lua</td><td>lua</td></tr>
+        <tr><td>Makefile</td><td>makefile</td></tr>
+        <tr><td>Markdown</td><td>markdown</td></tr>
+        <tr><td>Objective-C</td><td>objectivec</td></tr>
+        <tr><td>Perl</td><td>perl</td></tr>
+        <tr><td>PHP</td><td>php</td></tr>
+        <tr><td>PHP Template</td><td>php_template</td></tr>
+        <tr><td>Plain Text</td><td>plaintext</td></tr>
+        <tr><td>Python</td><td>python</td></tr>
+        <tr><td>Python REPL</td><td>python_repl</td></tr>
+        <tr><td>R</td><td>r</td></tr>
+        <tr><td>Ruby</td><td>ruby</td></tr>
+        <tr><td>Rust</td><td>rust</td></tr>
+        <tr><td>SCSS</td><td>scss</td></tr>
+        <tr><td>Shell</td><td>shell</td></tr>
+        <tr><td>SQL</td><td>sql</td></tr>
+        <tr><td>Swift</td><td>swift</td></tr>
+        <tr><td>TypeScript</td><td>typescript</td></tr>
+        <tr><td>VB.NET</td><td>vbnet</td></tr>
+        <tr><td>WebAssembly</td><td>wasm</td></tr>
+        <tr><td>XML (includes HTML aliases)</td><td>xml</td></tr>
+        <tr><td>YAML</td><td>yaml</td></tr>
+    </tbody>
+</table>
+
+<p>If you would like to use a language that is not on the list, contact the Atomic Learning team.</p>
