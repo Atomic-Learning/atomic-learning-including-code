@@ -12,7 +12,8 @@
     "duration": 6,
     "prerequisites": [
         "html-code-blocks-pre-code",
-        "html-paragraph-tag"
+        "html-paragraph-tag",
+        "atomic-learning-content-file"
     ],
     "related": [
         "atomic-learning-including-pseudocode",
