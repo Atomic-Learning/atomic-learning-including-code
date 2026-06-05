@@ -11,8 +11,6 @@
     ],
     "duration": 4,
     "prerequisites": [
-        "html-code-blocks-pre-code",
-        "html-paragraph-tag",
         "atomic-learning-content-file",
         "atomic-learning-programming-software-versions"
     ],
