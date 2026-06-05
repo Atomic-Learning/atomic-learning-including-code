@@ -2,10 +2,10 @@ When creating pages in the Atomic Learning Platform, you may wish to include eit
 
 # In-line code snippets
 
-To create an inline code snippet, wrap the code in the backticks. This can be followed by a set of curly braces containing a period, then the name of the language to be used to highlight the code snippet. For example, the code snippet `console.log("Hello, World!");`{.language-javascript} was created using the following HTML source code:
+To create an inline code snippet, wrap the code in the backticks. This can be followed by a set of curly braces containing a period, then the name of the language to be used to highlight the code snippet. For example, the code snippet `console.log("Hello, World!");`{.javascript} was created using the following HTML source code:
 
 ```html
- ...the code snippet `console.log("Hello, World!")`{.language-javascript} was created...
+ ...the code snippet `console.log("Hello, World!")`{.javascript} was created...
 ```
 
 # Code blocks
