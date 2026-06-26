@@ -17,7 +17,7 @@ def greet(name):
     print("Hello, " + name + "!")
 ```
 
-was created using the following HTML source code:
+was created using the following Markdown source code:
 
 ```
  ```python
