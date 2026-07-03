@@ -12,7 +12,9 @@
     "duration": 4,
     "prerequisites": [
         "atomic-learning-content-file",
-        "atomic-learning-programming-software-versions"
+        "atomic-learning-programming-software-versions",
+        "markdown-inline-code",
+        "markdown-code-blocks"
     ],
     "related": [
         "atomic-learning-including-pseudocode",
