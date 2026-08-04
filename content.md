@@ -32,53 +32,43 @@ For some languages, such as Python and R, the Atomic Learning Platform supports 
 
 # Supported Languages for Highlighting
 
-The languages supported for syntax highlighting in the Atomic Learning Platform are listed in the table below, along with their corresponding identifiers to be used in the Markdown source code.
+The languages supported for syntax highlighting in the Atomic Learning Platform are listed below, along with their corresponding identifiers to be used in the Markdown source code.
 
-<table>
-    <thead>
-        <tr>
-            <th>Language</th>
-            <th>Identifier</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><td>Bash</td><td>bash</td></tr>
-        <tr><td>C</td><td>c</td></tr>
-        <tr><td>C++</td><td>cpp</td></tr>
-        <tr><td>C#</td><td>csharp</td></tr>
-        <tr><td>CSS</td><td>css</td></tr>
-        <tr><td>Diff</td><td>diff</td></tr>
-        <tr><td>Go</td><td>go</td></tr>
-        <tr><td>GraphQL</td><td>graphql</td></tr>
-        <tr><td>INI (includes TOML)</td><td>ini</td></tr>
-        <tr><td>Java</td><td>java</td></tr>
-        <tr><td>JavaScript</td><td>javascript</td></tr>
-        <tr><td>JSON</td><td>json</td></tr>
-        <tr><td>Kotlin</td><td>kotlin</td></tr>
-        <tr><td>Less</td><td>less</td></tr>
-        <tr><td>Lua</td><td>lua</td></tr>
-        <tr><td>Makefile</td><td>makefile</td></tr>
-        <tr><td>Markdown</td><td>markdown</td></tr>
-        <tr><td>Objective-C</td><td>objectivec</td></tr>
-        <tr><td>Perl</td><td>perl</td></tr>
-        <tr><td>PHP</td><td>php</td></tr>
-        <tr><td>PHP Template</td><td>php_template</td></tr>
-        <tr><td>Plain Text</td><td>plaintext</td></tr>
-        <tr><td>Python</td><td>python</td></tr>
-        <tr><td>Python REPL</td><td>python_repl</td></tr>
-        <tr><td>R</td><td>r</td></tr>
-        <tr><td>Ruby</td><td>ruby</td></tr>
-        <tr><td>Rust</td><td>rust</td></tr>
-        <tr><td>SCSS</td><td>scss</td></tr>
-        <tr><td>Shell</td><td>shell</td></tr>
-        <tr><td>SQL</td><td>sql</td></tr>
-        <tr><td>Swift</td><td>swift</td></tr>
-        <tr><td>TypeScript</td><td>typescript</td></tr>
-        <tr><td>VB.NET</td><td>vbnet</td></tr>
-        <tr><td>WebAssembly</td><td>wasm</td></tr>
-        <tr><td>XML (includes HTML aliases)</td><td>xml</td></tr>
-        <tr><td>YAML</td><td>yaml</td></tr>
-    </tbody>
-</table>
+- Bash: `bash`
+- C: `c`
+- C++: `cpp`
+- C#: `csharp`
+- CSS: `css`
+- Diff: `diff`
+- Go: `go`
+- GraphQL: `graphql`
+- INI (includes TOML): `ini`
+- Java: `java`
+- JavaScript: `javascript`
+- JSON: `json`
+- Kotlin: `kotlin`
+- Less: `less`
+- Lua: `lua`
+- Makefile: `makefile`
+- Markdown: `markdown`
+- Objective-C: `objectivec`
+- Perl: `perl`
+- PHP: `php`
+- PHP Template: `php_template`
+- Plain Text: `plaintext`
+- Python: `python`
+- Python REPL: `python_repl`
+- R: `r`
+- Ruby: `ruby`
+- Rust: `rust`
+- SCSS: `scss`
+- Shell: `shell`
+- SQL: `sql`
+- Swift: `swift`
+- TypeScript: `typescript`
+- VB.NET: `vbnet`
+- WebAssembly: `wasm`
+- XML (includes HTML aliases): `xml`
+- YAML: `yaml`
 
 If you would like to use a language that is not on the list, contact the Atomic Learning team.
