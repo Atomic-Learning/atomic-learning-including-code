@@ -20,5 +20,6 @@
         "atomic-learning-including-pseudocode",
         "atomic-learning-creating-python-cells",
         "atomic-learning-creating-r-cells"
-    ]
+    ],
+    "accessibility_candidate":true
 }
